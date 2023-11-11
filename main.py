@@ -1,7 +1,9 @@
 print("HI ALL USE 'WINDOWS + .' TO GET EMOJI KEYBOARD☕\n")
-from machine import MENU
+from machine import MENU, resources
 # TODO: 1. Print the report, this gives us how much ingredients are in the machine
-choice=input("What would you like to have? espresso\latte\cappucino: ").lower()
+choice=input("What would you like to have? espresso\latte\cappucino or check report: ").lower()
+if choice=='report':
+    print(resources)
 # TODO: 2. As we enter an input, we should decrease the ingredients from the report
 # TODO: 2.1 then we should check if the ingredients are sufficient for the choice,
 # TODO: 2.2 then initially the money will be zero,
