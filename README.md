@@ -1,10 +1,7 @@
 # coffee_machine
 day 15 of python
-#### TODO: 1. Print the report, this gives us how much resources are in the machine
-#### TODO: 2. As we enter an input, we should check if the resources are sufficient for the choice,
-#### TODO: 2.1 then we should decrease the resources from the report
-#### TODO: 2.2 then initially the money will be zero,
-#### TODO: 2.3 we should input some money in nickels-.05 pennys-.01 quarters-.25 and dimes-.10 then we should return the excess money back to the user
-#### TODO: 2.4 if excess money was added or say not enough money when there isnt enough money inputted.
-#### TODO: 2.5 there should be an exit option as well as a order more coffee kind of an option
-#### TODO: 2.6 do something, something part 2, part 3
+#### This coffee machine prints the report of the resources used, we can choose 3 different coffees ranging from espresso, latte and then cappuccino.
+#### There is a lovely ascii art in the beginning. 
+#### Once we order a coffee, it asks us what amount in coins we want to enter, the coins starts from pennies: $0.01, nickels: $0.05, dimes: $0.10, to quarters: $0.25
+#### Each coffee has a different amount, if we give more amount than the coffee then the balance is returned to us.
+#### It then checks for the resources, resources are reduced everytime a different coffee is ordered, each coffee has different resources.
