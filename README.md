@@ -7,4 +7,4 @@ day 15 of python
 #### TODO: 2.3 we should input some money in nickels pennys quarters and dimes then we should return the excess money back to the user
 #### TODO: 2.4 if excess money was added or say not enough money when there isnt enough money inputted.
 #### TODO: 2.5 there should be an exit option as well as a order more coffee kind of an option
-#### TODO: 2.6 do something, something part 2
+#### TODO: 2.6 do something, something part 2, part 3
